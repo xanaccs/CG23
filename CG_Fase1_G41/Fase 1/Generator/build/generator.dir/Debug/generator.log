@@ -1,0 +1,19 @@
+﻿  generator.cpp
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(190,22): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(193,23): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(186,63): warning C4101: 'next_y': variável local não referenciada
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(275,13): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(276,18): warning C4101: 'z': variável local não referenciada
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(276,8): warning C4101: 'x': variável local não referenciada
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(316,20): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(317,20): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(322,20): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(323,20): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(328,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(329,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(330,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(335,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(336,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(337,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\code\generator.cpp(338,17): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  generator.vcxproj -> C:\Users\Marta\Desktop\CG2023\Fase 1\Generator\build\Debug\generator.exe

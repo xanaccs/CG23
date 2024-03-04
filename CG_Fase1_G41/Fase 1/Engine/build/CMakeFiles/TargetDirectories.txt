@@ -1,0 +1,3 @@
+C:/Users/Marta/Desktop/CG2023/Fase 1/Engine/build/CMakeFiles/engine.dir
+C:/Users/Marta/Desktop/CG2023/Fase 1/Engine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Marta/Desktop/CG2023/Fase 1/Engine/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+C:/Users/Marta/Desktop/CG2023/Fase 1/code/out/build/x64-Debug/CMakeFiles/class3.dir
+C:/Users/Marta/Desktop/CG2023/Fase 1/code/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Marta/Desktop/CG2023/Fase 1/code/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

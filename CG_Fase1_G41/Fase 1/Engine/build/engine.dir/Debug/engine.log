@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Marta\Desktop\CG2023\Fase 1\Engine\code\main.cpp(102,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Fase 1\Engine\code\main.cpp(294,20): warning C4018: '<': incompatibilidade de signed/unsigned
+  engine.vcxproj -> C:\Users\Marta\Desktop\CG2023\Fase 1\Engine\build\Debug\engine.exe
