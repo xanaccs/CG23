@@ -1,0 +1,8 @@
+﻿  1>Building Custom Rule C:/Users/Marta/Desktop/CG2023/Trabalho/Engine/code/CMakeLists.txt
+  main.cpp
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(136,2): warning C4551: faltando lista de argumentos na chamada de função
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(145,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(176,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(187,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(194,2): warning C4551: faltando lista de argumentos na chamada de função
+  engine.vcxproj -> C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\build\Debug\engine.exe

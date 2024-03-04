@@ -1,0 +1,10 @@
+^C:\USERS\MARTA\DESKTOP\CG2023\TRABALHO\GENERATOR\BUILD\CMAKEFILES\7D8075D5ECC734683C89877A26B9E147\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marta/Desktop/CG2023/Trabalho/Generator/code -BC:/Users/Marta/Desktop/CG2023/Trabalho/Generator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Marta/Desktop/CG2023/Trabalho/Generator/build/generator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

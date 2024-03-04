@@ -1,0 +1,6 @@
+﻿  1>Building Custom Rule C:/Users/Marta/Desktop/CG2023/Trabalho/Generator/code/CMakeLists.txt
+  generator.cpp
+C:\Users\Marta\Desktop\CG2023\Trabalho\Generator\code\generator.cpp(192,63): warning C4101: 'next_y': variável local não referenciada
+C:\Users\Marta\Desktop\CG2023\Trabalho\Generator\code\generator.cpp(282,18): warning C4101: 'z': variável local não referenciada
+C:\Users\Marta\Desktop\CG2023\Trabalho\Generator\code\generator.cpp(282,8): warning C4101: 'x': variável local não referenciada
+  generator.vcxproj -> C:\Users\Marta\Desktop\CG2023\Trabalho\Generator\build\Debug\generator.exe

@@ -1,0 +1,10 @@
+^C:\USERS\MARTA\DESKTOP\CG2023\TRABALHO\ENGINE\CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marta/Desktop/CG2023/Trabalho/Engine/code -BC:/Users/Marta/Desktop/CG2023/Trabalho/Engine/build --check-stamp-file C:/Users/Marta/Desktop/CG2023/Trabalho/Engine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
