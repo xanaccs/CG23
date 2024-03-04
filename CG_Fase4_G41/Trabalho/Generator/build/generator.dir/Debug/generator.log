@@ -1,0 +1,3 @@
+﻿  generator.cpp
+C:\Users\Marta\Desktop\CG2023\Trabalho\Generator\code\generator.cpp(357,76): warning C4101: 'next_y': variável local não referenciada
+  generator.vcxproj -> C:\Users\Marta\Desktop\CG2023\Trabalho\Generator\build\Debug\generator.exe

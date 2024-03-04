@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(314,2): warning C4551: faltando lista de argumentos na chamada de função
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(323,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(398,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(456,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\code\main.cpp(482,20): warning C4018: '<': incompatibilidade de signed/unsigned
+  engine.vcxproj -> C:\Users\Marta\Desktop\CG2023\Trabalho\Engine\build\Debug\engine.exe

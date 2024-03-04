@@ -1,0 +1,458 @@
+<world>  
+    <window width="1280" height="720" />
+    <lights> 
+        <light type="point" posx="0" posy="0" posz="0" />
+    </lights>
+    <group>
+        <!-- SOL -->
+        <group> 
+            <transform> 
+                <scale x="1.5" y="1.5" z="1.5"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+                    <texture file = "sol.jpg" /> 
+                    <color>
+                        <emissive R="120" G="120" B="120" />
+                    </color>
+		        </model> 
+            </models>   
+        </group>
+        
+        <!-- MERCURIO -->
+        <group>   
+            <transform>
+                <translate time="20" align="true">
+                    <point x="-7" y="0" z="0"/>
+                    <point x="-6.12" y="0" z="3.54"/>
+                    <point x="-3.54" y="0" z="6.12"/>
+                    <point x="0" y="0" z="7"/>
+                    <point x="3.54" y="0" z="6.12"/>
+                    <point x="6.12" y="0" z="3.54"/>
+                    <point x="7" y="0" z="0"/>
+                    <point x="6.12" y="0" z="-3.54"/>
+                    <point x="3.54" y="0" z="-6.12"/>
+                    <point x="0" y="0" z="-7"/>
+                    <point x="-3.54" y="0" z="-6.12"/>
+                    <point x="-6.12" y="0" z="-3.54"/>
+                </translate>
+                <rotate time="6" x="0" y="1" z="0"/>
+                <scale x="0.0125" y="0.0125" z="0.0125"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+                    <texture file = "mercurio.jpg" /> 
+		        </model>
+            </models>   
+        </group>
+        
+        <!-- VÉNUS -->
+        <group>   
+            <transform>
+                <translate time="21" align="true">
+                    <point x="8" y="0" z="0"/>
+                    <point x="6.93" y="0" z="4"/>
+                    <point x="4" y="0" z="6.93"/>                    
+                    <point x="0" y="0" z="8"/>
+                    <point x="-4" y="0" z="6.93"/>
+                    <point x="-6.93" y="0" z="4"/>
+                    <point x="-8" y="0" z="0"/>
+                    <point x="-6.93" y="0" z="-4"/>
+                    <point x="-4" y="0" z="-6.93"/>
+                    <point x="0" y="0" z="-8"/>
+                    <point x="4" y="0" z="-6.93"/>
+                    <point x="6.93" y="0" z="-4"/>
+                </translate>
+                <rotate time="10" x="0" y="1" z="0"/>
+                <scale x="0.0375" y="0.0375" z="0.0375"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+                    <texture file = "venus.jpg" /> 
+                </model> 
+            </models>   
+        </group>
+        
+        <!-- TERRA -->
+        <group>   
+            <transform>
+                <translate time="21" align="true">
+                    <point x="-9" y="0" z="0"/>
+                    <point x="-7.76" y="0" z="4.51"/>
+                    <point x="-4.51" y="0" z="7.76"/>
+                    <point x="0" y="0" z="9"/>
+                    <point x="4.51" y="0" z="7.76"/>
+                    <point x="7.76" y="0" z="4.51"/>
+                    <point x="9" y="0" z="0"/>
+                    <point x="7.76" y="0" z="-4.51"/>
+                    <point x="4.51" y="0" z="-7.76"/>
+                    <point x="0" y="0" z="-9"/>
+                    <point x="-4.51" y="0" z="-7.76"/>
+                    <point x="-7.76" y="0" z="-4.51"/>
+                </translate>
+                <rotate time="5" x="0" y="1" z="0"/>
+                <scale x="0.05" y="0.05" z="0.05"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+                    <texture file = "terra.jpg" /> 
+                </model> 
+            </models>   
+            
+            <!-- LUA -->
+            <group>
+                <transform> 
+                    <rotate angle="18" x="0" y="0" z="1"/>
+                    <translate time="27" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate>
+                    <scale x="0.25" y="0.25" z="0.25"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d"> 
+			<texture file = "lua.jpg" /> 
+		</model>
+                </models>   
+            </group>
+        </group>
+        
+        <!-- MARTE -->
+        <group>   
+            <transform>
+                <translate time="23" align="true">
+                    <point x="-10" y="0" z="0"/>
+                    <point x="-8.66" y="0" z="5"/>
+                    <point x="-5" y="0" z="8.66"/>
+                    <point x="0" y="0" z="10"/>
+                    <point x="5" y="0" z="8.66"/>
+                    <point x="8.66" y="0" z="5"/>
+                    <point x="10" y="0" z="0"/>
+                    <point x="8.66" y="0" z="-5"/>
+                    <point x="5" y="0" z="-8.66"/>
+                    <point x="0" y="0" z="-10"/>
+                    <point x="-5" y="0" z="-8.66"/>
+                    <point x="-8.66" y="0" z="-5"/>
+                </translate>
+                <rotate time="5" x="0" y="1" z="0"/>
+                <scale x="0.025" y="0.025" z="0.025"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+			<texture file = "marte.jpg" /> 
+		</model> 
+            </models>   
+        </group>
+        
+        <!-- JÚPITER -->
+        <group>   
+            <transform>
+                <translate time="40" align="true">
+                    <point x="-9.211" y="0" z="-16.618"/>
+                    <point x="-16.286" y="0" z="-9.786"/>
+                    <point x="-18.997" y="0" z="-0.332"/>
+                    <point x="-16.618" y="0" z="9.211"/>
+                    <point x="-9.786" y="0" z="16.286"/>
+                    <point x="-0.332" y="0" z="18.997"/>
+                    <point x="9.211" y="0" z="16.618"/>
+                    <point x="16.286" y="0" z="9.786"/>
+                    <point x="18.997" y="0" z="0.332"/>
+                    <point x="16.618" y="0" z="-9.211"/>
+                    <point x="9.786" y="0" z="-16.286"/>
+                    <point x="0.332" y="0" z="-18.997"/>
+                </translate>
+                <rotate time="5" x="0" y="1" z="0"/>
+                <scale x="0.5125" y="0.5125" z="0.5125"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+			<texture file = "jupiter.jpg" /> 
+		</model> 
+            </models>
+            <!-- LUA EUROPA -->
+            <group>
+                <transform> 
+                    <rotate angle="86" x="0" y="0" z="1"/>
+                    <translate time="30" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate>
+                    <scale x="0.02" y="0.02" z="0.02"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d"> 
+			<texture file = "lua.jpg" /> 
+		</model>
+                </models>   
+            </group>
+            <!-- LUA GANIMEDES -->
+            <group>
+                <transform>
+                    <rotate angle="68.3" x="0" y="0" z="1"/>
+                    <translate time="49" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate>
+                    <scale x="0.04" y="0.04" z="0.04"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d">
+			<texture file = "lua.jpg" /> 
+		</model> 
+                </models>   
+            </group>
+            <!-- LUA IO -->
+            <group>
+                <transform> 
+                    <rotate angle="0.05" x="0" y="0" z="1"/>
+                    <translate time="20" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate>
+                    <scale x="0.03" y="0.03" z="0.03"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d">
+			<texture file = "lua.jpg" /> 
+		</model> 
+                </models>   
+            </group>
+            <!-- LUA CALISTO -->
+            <group>
+                <transform> 
+                    <translate time="100" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate> 
+                    <scale x="0.03" y="0.03" z="0.03"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d">
+			<texture file = "lua.jpg" /> 
+		</model> 
+                </models>   
+            </group>
+        </group>
+        
+        <!-- SATURNO -->
+        <group>
+            <transform>
+                <translate time="70" align="true">
+                    <point x="29.995" y="0" z="0.524"/>
+                    <point x="26.239" y="0" z="-14.544"/>
+                    <point x="15.451" y="0" z="-25.715"/>
+                    <point x="0.524" y="0" z="-29.995"/>
+                    <point x="-14.544" y="0" z="-26.239"/>
+                    <point x="-25.715" y="0" z="-15.451"/>
+                    <point x="-29.995" y="0" z="-0.524"/>
+                    <point x="-26.239" y="0" z="14.544"/>
+                    <point x="-15.451" y="0" z="25.715"/>
+                    <point x="-0.524" y="0" z="29.995"/>
+                    <point x="14.544" y="0" z="26.239"/>
+                    <point x="25.715" y="0" z="15.451"/>
+                </translate>
+                <rotate time="5" x="0" y="1" z="0"/>
+                <scale x="0.4375" y="0.4375" z="0.4375"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+                    <texture file = "saturno.jpg" /> 
+                </model> 
+            </models>  
+            
+            <!-- ANEIS -->
+            <group>
+                <transform> 
+                    <rotate angle="75" x="1" y="0" z="0"/>
+                </transform>
+                <models>
+                    <model file="rings_0.7_5_80_2.3d"> 
+			<texture file = "aneis.png" /> 
+		</model>
+                </models>  
+            </group>
+            
+            <!-- LUA ENCÉLADO -->
+            <group>
+                <transform> 
+                    <rotate angle="35" x="0" y="0" z="1"/>
+                    <translate time="1" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate> 
+                    <scale x="0.004" y="0.004" z="0.004"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d">
+			<texture file = "lua.jpg" /> 
+		</model> 
+                </models>   
+            </group>
+            <!-- LUA TITÃ -->
+            <group>
+                <transform> 
+                    <translate time="16" align="true">
+                        <point x="-7" y="0" z="0"/>
+                        <point x="-6.12" y="0" z="3.54"/>
+                        <point x="-3.54" y="0" z="6.12"/>
+                        <point x="0" y="0" z="7"/>
+                        <point x="3.54" y="0" z="6.12"/>
+                        <point x="6.12" y="0" z="3.54"/>
+                        <point x="7" y="0" z="0"/>
+                        <point x="6.12" y="0" z="-3.54"/>
+                        <point x="3.54" y="0" z="-6.12"/>
+                        <point x="0" y="0" z="-7"/>
+                        <point x="-3.54" y="0" z="-6.12"/>
+                        <point x="-6.12" y="0" z="-3.54"/>
+                    </translate>
+                    <scale x="0.04" y="0.04" z="0.04"/>
+                </transform>
+                <models> 
+                    <model file="spherePrototype_4_80_80.3d">
+			<texture file = "lua.jpg" /> 
+		</model> 
+                </models>   
+            </group>
+        </group>
+        
+        <!-- URANO -->
+        <group>   
+            <transform>
+                <translate time="163" align="true">
+                    <point x="52.992" y="0" z="0.925"/>
+                    <point x="45.43" y="0" z="27.297"/>
+                    <point x="25.695" y="0" z="46.355"/>
+                    <point x="-0.925" y="0" z="52.992"/>
+                    <point x="-27.297" y="0" z="45.43"/>
+                    <point x="-46.355" y="0" z="25.695"/>
+                    <point x="-52.992" y="0" z="-0.925"/>
+                    <point x="-45.43" y="0" z="-27.297"/>
+                    <point x="-25.695" y="0" z="-46.355"/>
+                    <point x="0.925" y="0" z="-52.992"/>
+                    <point x="27.297" y="0" z="-45.43"/>
+                    <point x="46.355" y="0" z="-25.695"/>
+                </translate>
+                <rotate time="5" x="0" y="1" z="0"/>
+                <scale x="0.1875" y="0.1875" z="0.1875"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+			<texture file = "urano.jpg" /> 
+		</model> 
+            </models>   
+        </group>
+        
+        <!-- NEPTUNO -->
+        <group>   
+            <transform>
+                <translate time="300" align="true">
+                    <point x="69.989" y="0" z="1.222"/>
+                    <point x="61.223" y="0" z="-33.937"/>
+                    <point x="36.053" y="0" z="-60.002"/>
+                    <point x="1.222" y="0" z="-69.989"/>
+                    <point x="-33.937" y="0" z="-61.223"/>
+                    <point x="-60.002" y="0" z="-36.053"/>
+                    <point x="-69.989" y="0" z="-1.222"/>
+                    <point x="-61.223" y="0" z="33.937"/>
+                    <point x="-36.053" y="0" z="60.002"/>
+                    <point x="-1.222" y="0" z="69.989"/>
+                    <point x="33.937" y="0" z="61.223"/>
+                    <point x="60.002" y="0" z="36.053"/>
+                </translate>
+                <rotate time="5" x="0" y="1" z="0"/>
+                <scale x="0.175" y="0.175" z="0.175"/>
+            </transform>
+            <models> 
+                <model file="spherePrototype_4_80_80.3d">
+                    <texture file = "neptuno.jpg" />
+                </model> 
+            </models>   
+        </group>
+        
+        <!-- COMETA -->
+        <group>   
+            <transform>
+                <translate time="20" align="true">
+                    <point x="20.997" y="0.367" z="0"/>
+                    <point x="18.001" y="10.816" z="0"/>
+                    <point x="10.181" y="18.367" z="0"/>
+                    <point x="-0.367" y="20.997" z="0"/>
+                    <point x="-10.816" y="18.001" z="0"/>
+                    <point x="-18.367" y="10.181" z="0"/>
+                    <point x="-20.997" y="-0.367" z="0"/>
+                    <point x="-18.001" y="-10.816" z="0"/>
+                    <point x="-10.181" y="-18.367" z="0"/>
+                    <point x="0.367" y="-20.997" z="0"/>
+                    <point x="10.816" y="-18.001" z="0"/>
+                    <point x="18.367" y="-10.181" z="0"/>
+                </translate>
+                <scale x="0.3" y="0.1" z="0.1" />
+            </transform>
+            <models> 
+                <model file="comet_10.3d"> 
+			         <texture file = "cometa.jpg" /> 
+		        </model>
+            </models>   
+        </group>    
+    </group>
+</world>
